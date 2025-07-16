@@ -21,6 +21,7 @@ pipeline{
             gitCheckout(
                 branch: "main",
                 url: "https://github.com/roycedanielmathew0286/Java_app_3.0.git"
+                credentialsId: 'd030e9a4-55c7-4a4f-a879-1bd9a31e65e3'
             )
             }
         }

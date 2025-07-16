@@ -19,9 +19,8 @@ pipeline{
                     when { expression {  params.action == 'create' } }
             steps{
             gitCheckout(
-                url: 'https://github.com/roycedanielmathew0286/Java_app_3.0.git',
-                branch: 'main',
-                credentialsId: 'github-pat'
+                branch: "main",
+                url: "https://github.com/roycedanielmathew0286/Java_app_3.0.git"
             )
             }
         }
